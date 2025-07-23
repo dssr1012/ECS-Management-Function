@@ -20,15 +20,15 @@ def handler(event, context):
         print("region is invalid.")
         return "parameters invalid."
 
-    ecs_ids = context.getUserData('ecs_id_list')
-    if not ecs_ids:
-        print("no ecs servers to operate.")
-        return "nothing todo"
-
     parts = aditionalData.rsplit(',',1) 
     ecs_id = parts[0]
     print("servers: '%s'." % ecs_id)
     ecs_id_list = ecs_id.split(',') 
+    
+    if not ecs_id:
+        print("no ecs servers to operate.")
+        return "nothing todo"
+        
     logger = context.getLogger()
     if not project_id:
         print("operation failed for project_id or region or ak or sk empty.")
