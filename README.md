@@ -30,7 +30,7 @@ Add the following environment variables to your function:
 - `region`: The region where your ECS instances are located (e.g., `la-south-2`)
 
 ### 4. Upload the Function Code
-Copy the provided Python code into the function editor or upload it as a .zip file.
+Copy the provided Python code into the function editor.
 
 ### 5. Create a Trigger
 To create a timer trigger:
