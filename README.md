@@ -47,9 +47,9 @@ To create a timer trigger:
 
 ### OPTIONAL
 To create a cron expression
-https://support.huaweicloud.com/intl/en-us/ae-ad-1-usermanual-functiongraph/functiongraph_01_0908.html --> Cron Expression
-https://en.wikipedia.org/wiki/List_of_tz_database_time_zones --> Cron TimeZones use TZ Identifier
-CRON_TZ=America/Argentina/Buenos_Aires 0 0 20 ? * MON-FRI  --> Execute a task Monday to Friday at 20hrs GMT -3 (Arg Time Zone)
+https://support.huaweicloud.com/intl/en-us/ae-ad-1-usermanual-functiongraph/functiongraph_01_0908.html --> Cron Expression <br>
+https://en.wikipedia.org/wiki/List_of_tz_database_time_zones --> Cron TimeZones use TZ Identifier <br>
+CRON_TZ=America/Argentina/Buenos_Aires 0 0 20 ? * MON-FRI  --> Execute a task Monday to Friday at 20hrs GMT -3 (Arg Time Zone) <br>
 
 ## Usage
 The function expects an event with the following format:
